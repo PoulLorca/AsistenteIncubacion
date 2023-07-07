@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chorombo.asistenteincubacion.NacimientosController">
+   <children>
+      <SplitPane dividerPositions="0.8" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane layoutX="31.0" layoutY="14.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="25.0">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="73.0" minWidth="10.0" percentWidth="2.0" prefWidth="35.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="121.0" minWidth="10.0" percentWidth="8.0" prefWidth="120.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="121.0" minWidth="2.0" percentWidth="2.0" prefWidth="35.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="75.0" minWidth="10.0" percentWidth="8.0" prefWidth="55.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="78.0" minWidth="10.0" percentWidth="8.0" prefWidth="58.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="69.0" minWidth="3.0" percentWidth="2.0" prefWidth="31.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="117.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="2.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="2.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="2.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" percentWidth="8.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="22.0" minHeight="10.0" prefHeight="12.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Cantidad" GridPane.columnIndex="1" />
+                        <Label text="Cantidad" GridPane.columnIndex="3" />
+                        <Label text="\%" GridPane.columnIndex="4" />
+                        <Label text="Cantidad" GridPane.columnIndex="6" />
+                        <Label text="\%" GridPane.columnIndex="7" />
+                        <Label text="Cantidad" GridPane.columnIndex="9" />
+                        <Label text="\%" GridPane.columnIndex="10" />
+                        <Label text="Cantidad" GridPane.columnIndex="12" />
+                        <Label text="\%" GridPane.columnIndex="13" />
+                        <Label text="Cantidad" GridPane.columnIndex="15" />
+                        <Label text="\%" GridPane.columnIndex="16" />
+                        <Label text="1" GridPane.rowIndex="1" />
+                        <Label text="2" GridPane.rowIndex="2" />
+                        <Label text="3" GridPane.rowIndex="3" />
+                        <Label text="4" GridPane.rowIndex="4" />
+                        <Label text="5" GridPane.rowIndex="5" />
+                        <Label text="6" GridPane.rowIndex="6" />
+                        <Label text="7" GridPane.rowIndex="7" />
+                        <Label text="8" GridPane.rowIndex="8" />
+                        <Label text="9" GridPane.rowIndex="9" />
+                        <Label text="10" GridPane.rowIndex="10" />
+                        <Label text="11" GridPane.rowIndex="11" />
+                        <Label text="12" GridPane.rowIndex="12" />
+                        <Label text="13" GridPane.rowIndex="13" />
+                        <Label text="14" GridPane.rowIndex="14" />
+                        <Label text="15" GridPane.rowIndex="15" />
+                        <Label text="16" GridPane.rowIndex="16" />
+                        <Label text="17" GridPane.rowIndex="17" />
+                        <Label text="18" GridPane.rowIndex="18" />
+                        <TextField fx:id="txt1" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt2" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out1" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt3" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out2" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt4" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out3" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out4" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out5" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out6" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out7" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt5" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt6" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out8" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt7" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out9" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt8" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out10" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out11" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out12" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out13" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out14" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt9" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt10" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out15" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt11" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out16" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt12" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out17" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out18" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out19" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out20" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out21" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt13" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt14" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out22" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt15" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out23" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt16" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out24" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out25" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out26" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out27" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out28" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt17" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt18" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out29" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt19" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out30" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt20" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out31" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out32" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out33" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out34" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out35" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt21" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt22" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out36" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt23" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out37" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt24" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out38" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out39" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out40" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out41" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out42" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt25" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt26" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out43" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt27" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out44" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt28" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out45" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out46" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out47" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out48" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out49" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt29" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt30" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out50" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt31" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out51" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt32" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out52" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out53" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out54" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out55" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out56" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt33" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt34" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out57" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt35" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out58" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt36" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out59" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out60" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out61" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out62" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out63" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt37" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt38" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out64" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt39" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out65" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt40" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out66" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out67" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out68" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out69" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out70" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt41" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt42" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out71" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt43" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out72" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt44" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out73" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out74" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out75" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out76" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out77" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt45" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt46" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out78" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt47" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out79" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt48" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out80" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out81" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out82" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out83" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out84" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt49" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt50" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out85" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt51" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out86" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt52" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out87" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out88" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out89" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out90" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out91" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt53" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt54" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out92" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt55" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out93" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt56" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out94" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out95" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out96" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out97" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out98" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt57" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt58" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out99" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt59" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out100" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt60" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out101" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out102" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out103" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out104" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out105" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt61" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt62" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out106" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt63" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out107" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt64" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out108" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out109" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out110" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out111" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out112" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt65" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt66" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out113" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt67" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out114" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt68" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out115" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out116" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out117" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out118" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out119" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt69" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="1" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt70" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="3" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out120" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt71" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="6" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out121" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txt72" alignment="CENTER" onKeyTyped="#setNacimiento" GridPane.columnIndex="9" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out122" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out123" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out124" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out125" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="out126" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="18">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total1" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="1" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total2" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="3" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total3" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="4" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total4" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="6" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total5" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="7" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total6" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="9" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total7" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="10" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total8" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="12" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total9" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="13" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total10" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="15" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="total11" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="16" GridPane.rowIndex="20">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Line endX="100.0" startX="-813.6631469726562" startY="7.179379463195801E-4" GridPane.columnIndex="9" GridPane.rowIndex="19" />
+                        <Line endX="100.0" endY="14.0" startX="100.0" startY="-482.9873046875" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                        <Line endX="100.0" endY="14.0" startX="100.0" startY="-482.9873046875" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                        <Line endX="100.0" endY="14.0" startX="100.0" startY="-482.9873046875" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                        <Line endX="100.0" endY="14.0" startX="100.0" startY="-482.9873046875" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                        <Line endX="100.0" endY="14.0" startX="100.0" startY="-482.9873046875" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                     </children>
+                  </GridPane>
+                  <GridPane layoutX="25.0" layoutY="10.0" prefHeight="20.0" prefWidth="925.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="130.0" minWidth="10.0" prefWidth="85.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="192.0" minWidth="10.0" prefWidth="171.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="213.0" minWidth="10.0" prefWidth="170.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="170.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="177.0" minWidth="10.0" prefWidth="170.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="160.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Total máquina" />
+                        <Label text="Pollos Nacidos" GridPane.columnIndex="1" />
+                        <Label text="Pollos Segunda" GridPane.columnIndex="2" />
+                        <Label text="Pollos Desecho" GridPane.columnIndex="3" />
+                        <Label text="Pollos Venta" GridPane.columnIndex="4" />
+                        <Label text="Pollos Total" GridPane.columnIndex="5" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <GridPane layoutX="19.0" layoutY="73.0" style="-fx-padding: 10; -fx-border-style: solid inside; -fx-border-width: 2; -fx-border-insets: 5; -fx-border-radius: 5; -fx-border-color: blue;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField fx:id="MaqIn1" alignment="CENTER" GridPane.rowIndex="1">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="MaqIn3" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="MaqOut1" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="MaqIn2" alignment="CENTER" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="MaqOut2" alignment="CENTER" editable="false" focusTraversable="false" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Button fx:id="btn1" mnemonicParsing="false" onAction="#divMaquinas" text="Calcular" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="H. Maq 1" />
+                        <Label text="Nacimiento" GridPane.columnIndex="1" />
+                        <Label text="N. Maq 1" GridPane.columnIndex="2" />
+                        <Label text="H. Maq 2" GridPane.rowIndex="2" />
+                        <Label text="N. Maq 2" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+                  <Label layoutX="14.0" layoutY="33.0" text="Div. de maquinas" />
+                  <GridPane layoutX="19.0" layoutY="254.0" style="-fx-padding: 10; -fx-border-style: solid inside; -fx-border-width: 2; -fx-border-insets: 5; -fx-border-radius: 5; -fx-border-color: blue;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="250.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TextField fx:id="h1" alignment="CENTER" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="h2" alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="h3" alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="1.0" right="1.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Button fx:id="btn2" mnemonicParsing="false" onAction="#hxPercentage" text="Calcular" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="H. Cargados" />
+                        <Label text="\% deseado" GridPane.columnIndex="1" />
+                        <Label text="N° Pollos" GridPane.columnIndex="2" />
+                     </children>
+                  </GridPane>
+                  <Label layoutX="14.0" layoutY="233.0" text="H x %" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
